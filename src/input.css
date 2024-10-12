@@ -1,0 +1,5 @@
+@import 'flowbite'; /* Mueve esta línea al principio */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
