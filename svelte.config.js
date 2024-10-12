@@ -13,7 +13,7 @@ const config = {
       strict: false
     }),
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/to-do-list' : ''  // Ajusta el base para GitHub Pages
+      base: process.env.NODE_ENV === 'production' ? '/to-do-list' : ''  // Asegúrate de que este sea el nombre correcto de tu repositorio
     },
     alias: {
       $views: path.resolve('src/infra/view')
