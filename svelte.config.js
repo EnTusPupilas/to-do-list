@@ -10,7 +10,6 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: 'index.html', // SPA fallback
 			strict: false
 		}),
 		paths: {
