@@ -1,11 +1,35 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/to-do-list/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="modulepreload" href="/to-do-list/_app/immutable/entry/start.DXKr9OVR.js">
+		<link rel="modulepreload" href="/to-do-list/_app/immutable/chunks/entry.CE1vvvOB.js">
+		<link rel="modulepreload" href="/to-do-list/_app/immutable/chunks/scheduler.Bd3gKgia.js">
+		<link rel="modulepreload" href="/to-do-list/_app/immutable/entry/app.D2va48jN.js">
+		<link rel="modulepreload" href="/to-do-list/_app/immutable/chunks/index.NSVzocs1.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1rq8u1p = {
+						base: "/to-do-list",
+						assets: "/to-do-list"
+					};
 
-<head>
-	<meta http-equiv="refresh" content="0; url=/" />
-</head>
+					const element = document.currentScript.parentElement;
 
-<body>
-</body>
-
+					Promise.all([
+						import("/to-do-list/_app/immutable/entry/start.DXKr9OVR.js"),
+						import("/to-do-list/_app/immutable/entry/app.D2va48jN.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
 </html>
